@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Management</title>
+    <style>
+        /* CSS styles */
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('s.jpg'); /* Path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        header, nav, section, footer {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Responsive styles */
+        @media screen and (min-width: 768px) {
+            nav {
+                display: flex;
+                justify-content: center;
+            }
+            nav a {
+                margin: 0 20px;
+            }
+            section {
+                text-align: left;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        }
+
+        /* Bulletin board-style offers */
+        .offers-container {
+            background-color: #f9f9f9;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .offers-container h3 {
+            text-align: center;
+        }
+
+        .offer {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .offer h4 {
+            margin-top: 0;
+        }
+
+        .offer p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tour Management System</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Tours</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome to our Tour Management System</h2>
+    <p>This system helps you manage your tours effectively. You can explore various tours, know about our company, and contact us for any inquiries.</p>
+    
+    <div class="offers-container">
+        <h3>Special Offers</h3>
+        <div class="offer">
+            <h4>Summer Adventure Package</h4>
+            <p>Experience the thrill of a lifetime with our Summer Adventure Package! Enjoy guided hikes through breathtaking landscapes, whitewater rafting, and cozy campfire evenings. Book now and save 20%!</p>
+        </div>
+        <div class="offer">
+            <h4>City Explorer Tour</h4>
+            <p>Discover the hidden gems of the city with our City Explorer Tour! Visit iconic landmarks, sample local cuisine, and immerse yourself in the vibrant culture. Limited time offer - don't miss out!</p>
+        </div>
+        <div class="offer">
+            <h4>Tropical Paradise Getaway</h4>
+            <p>Escape to a tropical paradise with our exclusive Getaway Package! Relax on pristine beaches, snorkel in crystal-clear waters, and indulge in delicious island cuisine. Book now for a rejuvenating retreat!</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Tour Management System</p>
+</footer>
+
+</body>
+</html>
